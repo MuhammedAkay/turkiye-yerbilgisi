@@ -1,7 +1,6 @@
 import { CityClient } from './clients/CityClient';
-import { WeatherClient } from './clients/WeatherClient';
+import { WeatherClient, WeatherAPI } from './clients/WeatherClient';
 
-export { CityClient, WeatherClient };
+export { CityClient, WeatherClient, WeatherAPI };
 
-// Eğer require ile kullanım sağlanacaksa, aşağıdaki gibi bir export yapılabilir:
-module.exports = { CityClient, WeatherClient };
+module.exports = { CityClient, WeatherClient, WeatherAPI };
