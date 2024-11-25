@@ -1,0 +1,75 @@
+{
+  "1": {
+    "name": "Adana",
+    "plateCode": 1,
+    "region": "Akdeniz",
+    "districts": [
+      {
+        "name": "Aladağ",
+        "villages": ["Akören", "Boztahta", "Büyüksofulu", "Ceritler", "Darılık", "Dayılar", "Dölekli", "Ebrişim", "Eğner", "Gerdibi", "Gireğiyeniköy", "Gökçe", "Kabasakal", "Karahan", "Kıcak", "Kışlak", "Kızıldam", "Kökez", "Köprücük", "Küp", "Madenli", "Mazılık", "Posyağbasan", "Topallı", "Uzunkuyu", "Yetimli", "Yüksekören"]
+      },
+      {
+        "name": "Ceyhan",
+        "towns": ["Birkent", "Büyükmangıt", "Doruk", "Hamdilli", "Kösreli", "Kurtkulağı", "Kurtpınar", "Mercimek", "Mustafabeyli", "Sağkaya", "Sarımazı"],
+        "villages": ["Adapınar", "Ağaçlı", "Ağaçpınar", "Akdam", "Altıgöz", "Altıkara", "Aydınlar", "Azizli", "Başören", "Burhanlı", "Büyükburhaniye", "Camuzağılı", "Ceyhanbekirli", "Çakaldere", "Çataklı", "Çatalhüyük", "Çevretepe", "Çiçekli", "Çiftlikler", "Çokçapınar", "Dağıstan", "Değirmendere", "Değirmenli", "Dikilitaş", "Dokuztekne", "Dumlu", "Durhasandede", "Dutlupınar", "Ekinyazı", "Elmagölü", "Erenler", "Gümürdülü", "Gündoğan", "Günlüce", "Günyazı", "Hamidiye", "Hamitbey", "Hamitbeybucağı", "Irmaklı", "Isırganlı", "İmran", "İncetarla", "İnceyer", "İsalı", "Karakayalı", "Kılıçkaya", "Kıvrıklı", "Kızıldere", "Köprülü", "Körkuyu", "Kuzucak", "Küçükburhaniye", "Küçükmangıt", "Narlık", "Sağırlar", "Sarıbahçe", "Selimiye", "Sirkeli", "Soğukpınar", "Soysallı", "Tatarlı", "Tatlıkuyu", "Toktamış", "Üçdutyeşilova", "Yalak", "Yellibel", "Yeniköynazımbey", "Yeşilbahçe", "Yeşildam", "Yılankale"]
+      },
+      {
+        "name": "Çukurova",
+        "villages": ["Bozcalar", "Dörtler", "Fadıl", "Kabasakal", "Karahan", "Kaşoba", "Küçükçınar", "Memişli", "Örcün", "Pirili", "Söğütlü"]
+      },
+      {
+        "name": "Feke",
+        "villages": ["Akkaya", "Akoluk", "Bağdatlı", "Bahçecik", "Çandırlar", "Çondu", "Çürükler", "Değirmenciuşağı", "Gaffaruşağı", "Gedikli", "Göbelli", "Gürümze", "Güzpınarı", "Hıdıruşağı", "İncirci", "Kaleyüzü", "Kaşaltı", "Kayadibi", "Kırıkuşağı", "Kısacıklı", "Kızılağaç", "Kızılyer", "Koçyazı", "Konakkuran", "Kovukçınar", "Mansurlu", "Musalar", "Olucak", "Ormancık", "Ortaköy", "Oruçlu", "Paşalı", "Süphandere", "Şahmuratlı", "Tenkerli", "Tokmanaklı", "Tortulu", "Uğurlubağ", "Yaylapınar", "Yerebakan"]
+      },
+      {
+        "name": "İmamoğlu",
+        "villages": ["Ağzıkaraca", "Alaybeyi", "Ayvalı", "Camili", "Çörten", "Danacılı", "Faydalı", "Hacıhasanlı", "Koyunevi", "Malıhıdırlı", "Otluk", "Pekmezci", "Sayca", "Sevinçli", "Sokutaş", "Ufacıkören", "Uluçınar", "Üçtepe", "Yazıtepe"]
+      },
+      {
+        "name": "Karaisalı",
+        "villages": ["Akçalı", "Altınova", "Aşağıbelemedik", "Aşağıyirikler", "Ayakkıf", "Barakdağı", "Bekirli", "Beydemir", "Bolacalı", "Boztahta", "Bucak", "Çakallı", "Çevlik", "Çocuklar", "Çorlu", "Çukur", "Demirçit", "Döşekevi", "Durak", "Eğlence", "Emelcik", "Etekli", "Filikli", "Gildirli", "Gökhasanlı", "Gülüşlü", "Hacılı", "Hacımusalı", "Kaledağı", "Karahasanlı", "Karakılıç", "Karakuyu", "Kıralan", "Kırıklı", "Körüklü", "Kuşcusofulu", "Kuyucu", "Kuzgun", "Maraşlı", "Murtçukuru", "Nergizlik", "Nuhlu", "Ömerli", "Sadıkali", "Sarıkonak", "Tatık", "Topaktaş", "Topkaralı", "Torunsolaklı", "Tümenli", "Yazıbaşı"]
+      },
+      {
+        "name": "Karataş",
+        "towns": ["Bahçe", "Tuzla"],
+        "villages": ["Adalı", "Ataköy", "Bebeli", "Çağşırlı", "Çakırören", "Çavuşlu", "Çimeli", "Çukurkamış", "Damlapınar", "Develiören", "Dolaplı", "Gölkaya", "Hacıhasan", "Hasırağacı", "Helvacı", "İnnaplıhüyüğü", "İsahacılı", "Kapı", "Karagöçer", "Karataş", "Kesik", "Kırhasan", "Kızıltahta", "Kiremitli", "Meletmez", "Oymaklı", "Sarımsaklı", "Sirkenli", "Tabaklar", "Tabur", "Terliksiz", "Topraklı", "Tuzkuyusu", "Yassıören", "Yemişli", "Yenimurat", "Yüzbaşı"]
+      },
+      {
+        "name": "Kozan",
+        "towns": ["Gaziköy"],
+        "villages": ["Acarmantaş", "Akarca", "Akçalıuşağı", "Akdam", "Akkaya", "Alapınar", "Andıl", "Arslanlı", "Aydın", "Ayşehoca", "Bağözü", "Bağtepe", "Boztahta", "Bucakköy", "Bulduklu", "Çamdere", "Çamlarca", "Çandık", "Çelenuşağı", "Çobanpınarı", "Çokak", "Çukurören", "Çulluuşağı", "Çürüklü", "Dağlıca", "Damyeri", "Dikilitaş", "Dilekkaya", "Doğanalanı", "Duraluşağı", "Durmuşlu", "Düzağaç", "Enizçakırı", "Ergenuşağı", "Eskikabasakal", "Eskimantaş", "Faydalı", "Ferhatlı", "Gedikli", "Gökçeyol", "Gökgöz", "Görbeyaz", "Güneri", "Hacıbeyli", "Hacımirzalı", "Hamamköy", "Ilıcaköy", "Işıkkaya", "Işıklı", "İdemköy", "Kabaktepe", "Kahveli", "Kalkumaç", "Kapıkaya", "Karabucak", "Karacaören", "Karahamzalı", "Karanebili", "Kemer", "Kıbrıslar", "Kızıllar", "Kızlarsekisi", "Köseli", "Kuytucak", "Kuyubeli", "Kuyuluk", "Mahyalar", "Marankeçili", "Minnetli", "Oruçlu", "Örendere", "Özbaşı", "Pekmezci", "Postkabasakal", "Salmanlı", "Şerifli", "Tepecikören", "Tufanlı", "Turgutlu", "Turunçlu", "Velicanlı", "Yanalerik", "Yassıçalı", "Yeniköy", "Yukarıkeçili", "Yüksekören", "Zerdali"]
+      },
+      {
+        "name": "Pozantı",
+        "towns": ["Akçatekir"],
+        "villages": ["Alpu", "Aşçıbekirli", "Belemedik", "Çamlıbel", "Dağdibi", "Eskikonacık", "Fındıklı", "Gökbez", "Hamidiye", "Kamışlı", "Karakışlakçı", "Ömerli", "Yağlıtaş", "Yazıcık", "Yenikonacık", "Yukarıbelemedik" ]
+      },
+      {
+        "name": "Saimbeyli",
+        "villages": ["Aksaağaç", "Avcıpınarı", "Ayvacık", "Beypınarı", "Cıvıklı", "Cumhurlu", "Çatak", "Çeralan", "Çorak", "Değirmenciuşağı", "Eyüplü", "Gökmenler", "Gürleşen", "Halilbeyli", "Himmetli", "Kandilli", "Kapaklıkuyu", "Karakuyu", "Mahmutlu", "Naltaş", "Topallar", "Tülü", "Yardibi", "Yeniköy" ]
+      },
+      {
+        "name": "Sarıçam",
+        "villages": ["Aflak", "Akkuyu", "Avcılar", "Aydınyurdu", "Boztepe", "Cerenli", "Cihadiye", "Çamlıca", "Çarkıpare", "Çaylı", "Çiçekli", "Çirişgediği", "Dutluca", "Eğeciuşağı", "Gökbuket", "Hakkıbeyli", "Hasanbeyli", "Hocallı", "Karaömerli", "Karayusuflu", "Kargakekeç", "Karlık", "Kaşobası", "Kepeztepe", "Kılbaş", "Kılıçlı", "Kızılkaş", "Kösefakılı", "Maltepe", "Menekşe", "Mustafalar", "Sarıçam", "Turunçlu", "Ünlüce", "Yağızlar", "Yarımca", "Yeniyayla"]
+      },
+      {
+        "name": "Seyhan"
+      },
+      {
+        "name": "Tufanbeyli",
+        "towns": ["Bozgüney"],
+        "villages": ["Akçal", "Akpınar", "Ayvat", "Çatalçam", "Çukurkışla", "Damlalı", "Demiroluk", "Doğanbeyli", "Doğanlı", "Elemanlı", "Evci", "Fatmakuyu", "Güzelim", "Hanyeri", "İğdebel", "Karsavuran", "Kayapınar", "Kayarcık", "Kirazlıyurt", "Koçcağız", "Ortaköy", "Pekmezli", "Pınarlar", "Polatpınarı", "Şarköy", "Taşpınar", "Tozlu", "Yamanlı", "Yeşilova"]
+      },
+      {
+        "name": "Yumurtalık",
+        "towns": ["Kaldırım", "Yeşilköy", "Zeytinbeli"],
+        "villages": ["Asmalı", "Ayvalık", "Demirtaş", "Deveciuşağı", "Gölovası", "Hamzalı", "Haylazlı", "Kalemli", "Kesmeburun", "Kırmızıdam", "Kuzupınarı", "Narlıören", "Sugözü", "Yeniköy"]
+      },
+      {
+        "name": "Yüreğir",
+        "towns": ["Çelemli"],
+        "villages": ["Akpınar", "Belören", "Çatalpınar", "Güveloğlu", "Kaşlıca", "Vayvaylı"]
+      }
+    ]
+  }
+}
