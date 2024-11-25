@@ -2,23 +2,34 @@ import cities from '../data/cities.json';
 import axios from 'axios';
 
 export class CityClient {
-  constructor(private apiKey?: string) {}
+  async getCityDetails(cityName: string) {
+    const city = Object.values(cities).find(c => c.name.toLowerCase() === cityName.toLowerCase());
 
-  getCity(cityName: string) {
-    const city = cities.find(c => c.cityName.toLowerCase() === cityName.toLowerCase());
-    if (!city) throw new Error('City not found');
-    return city;
-  }
-  
-  async getCityWeather(cityName: string) {
-    if (this.apiKey) {
-      const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${this.apiKey}`);
-      if (response.status !== 200) {
-        throw new Error('API error');
-      }
-      return response.data;
-    } else {
-      throw new Error('API key is not provided');
+    if (!city) {
+      throw new Error(`City "${cityName}" not found in local data.`);
     }
+
+    const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&titles=${encodeURIComponent(cityName)}&prop=extracts&exintro&explaintext`;
+    let wikiInfo = null;
+
+    try {
+      const response = await axios.get(url);
+      const pages = response.data.query.pages;
+      const page = Object.values(pages)[0] as any;
+
+      if (!page.missing) {
+        wikiInfo = page.extract;
+      } else {
+        wikiInfo = "No additional information found on Wikipedia.";
+      }
+    } catch (error) {
+      wikiInfo = `Failed to fetch data from Wikipedia: ${error.message}`;
+    }
+
+    return {
+      localData: city,
+      wikiInfo,
+      source: "Wikipedia"
+    };
   }
 }
